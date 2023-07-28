@@ -1,0 +1,122 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width-device-width, initial-scale=.1.0">
+        <title>HTML CSS</title>
+        <style>
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+            .flexbox-item{
+                width: 150px;
+                border: 1px solid lightslategray;
+                background-color: white;
+                margin: 10px;
+                box-shadow: 0 1px 0 0  lightblue;
+                height: 200px;
+              
+            }
+            .flexbox-item1, .flexbox-item2, .flexbox-item3{
+                min-height: 250px;
+            } 
+            .get1{
+                width: 150px;
+                height: 120px;
+            }
+            .get5{
+                width: 150px;
+                height: 120px;
+            }
+            .get6{
+                width: 150px;
+                height: 120px;
+            }
+            span{
+                font-weight: bold;
+            }
+            .get2{
+                padding: 5px;
+                font-size: 20px;
+            }
+            .image1{
+                width: 30px;
+                height: 30px;
+                border-radius: 20px;
+                padding: 3px;
+                font-size: 18px;
+
+            }
+            .image1, .get3{
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 15px;
+                color: lightslategray;
+            }
+            .get4{
+                width: 130px;
+                height: 35px;
+                min-height: 30px;
+                border: none;
+                padding: 3px;
+                text-align: center;
+                margin: 5px;
+                border-radius: 5px;
+                background-color: blue;
+                font-size: 18px;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Flex</h1>
+        <div class="container">
+            <div class="flexbox-item flexbox-item1">
+                <div><img src="cat img.jpg" class="get1"></div>
+                <div class="get2"><span>Oliver</span></div>
+                <div class="get3"><img src="cat img.jpg" class="image1"> 2 mutual friends</div>
+                <div> <form> <input type="button" value="Add Friend" class="get4"></form></div>
+            </div>       
+            <div class="flexbox-item flexbox-item2">
+                <div><img src="dog image.jpg" class="get5"></div>
+                <div class="get2"><span>Mimi</span></div>
+                <div class="get3"><img src="dog image.jpg" class="image1"> 3 mutual friends</div>
+                <div> <form> <input type="button" value="Add Friend" class="get4"></form></div>
+            </div>            
+            <div class="flexbox-item flexbox-item3">
+                <div><img src="rabbit img.jpg" class="get6"></div>
+                <div class="get2"><span>Rex</span></div>
+                <div class="get3"><img src="rabbit img.jpg" class="image1"> 4 mutual friends</div>
+                <div> <form> <input type="button" value="Add Friend" class="get4"></form></div>
+            </div>         
+        </div>
+           
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
